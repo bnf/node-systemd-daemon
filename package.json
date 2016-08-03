@@ -1,0 +1,28 @@
+{
+  "name": "systemd-daemon",
+  "version": "1.0.0",
+  "description": "Native implementation of libsystemd. Providing sd_notify, sd_listen_fds and sd_botted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnf/node-systemd-daemon.git"
+  },
+  "keywords": [
+    "systemd",
+    "activation",
+    "socket",
+    "daemon"
+  ],
+  "author": "Benjamin Franzke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnf/node-systemd-daemon/issues"
+  },
+  "homepage": "https://github.com/bnf/node-systemd-daemon#readme",
+  "dependencies": {
+    "unix-dgram": "^1.0.0"
+  }
+}
