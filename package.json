@@ -1,6 +1,6 @@
 {
   "name": "systemd-daemon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Native implementation of libsystemd-daemon. Providing socket activation, sd_notify and sd_booted support.",
   "main": "index.js",
   "scripts": {
