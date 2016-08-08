@@ -1,4 +1,6 @@
-# Native libsystemd-daemon implementation
+# node-systemd-daemon
+
+Native implementation of the sd-daemon subset of libsystemd. Providing socket activation, sd\_notify and sd\_booted support.
 
 ## Usage
 
