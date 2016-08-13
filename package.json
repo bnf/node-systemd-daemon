@@ -1,7 +1,7 @@
 {
   "name": "systemd-daemon",
   "version": "1.0.4",
-  "description": "Native implementation of the sd-daemon subset of libsystemd. Providing socket activation, sd_notify and sd_booted support.",
+  "description": "Native implementation of the sd-daemon subset of libsystemd. Providing socket activation, sd_notify, sd_booted and watchdog support.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
