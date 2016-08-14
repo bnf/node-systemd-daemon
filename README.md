@@ -6,6 +6,8 @@ Native implementation of the sd-daemon subset of libsystemd. Providing socket ac
 
 ```javascript
 var sd = require('systemd-daemon');
+/* Enable watchdog reporting if required by the unit file.
+   Use sd.watchdog.stop() once you shutdown your app. */
 sd.watchdog.start();
 
 /* Listen on systemd socket if available, else port 3000 */
