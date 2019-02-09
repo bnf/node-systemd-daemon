@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/bnf/node-systemd-daemon#readme",
   "optionalDependencies": {
-    "unix-dgram": "^1.0.0"
+    "unix-dgram": "^2.0.2"
   }
 }
